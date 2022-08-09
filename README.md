@@ -1,2 +1,2 @@
 # ExchangeRate
-python file to calculate differences in exchange rates
+python file to calculate differences in foreign currency exchange rates
