@@ -12,8 +12,7 @@ print(moin.status_code)
 
 
 naver_root = "#_cs_foreigninfo > div > div.api_cs_wrap > div > div.c_rate > div > div.rate_compare > div.compare_area > div > div:nth-child(3) > div.input_box._input_box > span.recite._recite.result"
-moin_root = "#root > div > div.sc-hNMcUi.hOSnjg > section.sc-gPZUKb.bfpTxx > div > div.sc-gOPDNC.hMzDhc > div.sc-ktyGiW.kGrFMJ > div:nth-child(3) > div.sc-jEsDcK.fmGFYZ"
-
+moin_root = "#root > div > div.sc-kRktcz.gouydu > section.sc-khBlLl.fHohGN > div > div:nth-child(1) > h3.sc-dpkrwT.lhYVUP.reset-trigger"
 
 
 naver_soup = BeautifulSoup(naver.content, "html.parser")
